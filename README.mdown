@@ -7,7 +7,7 @@ The site was built with [Bootstrap](https://github.com/twitter/bootstrap), and k
 
 You can see the site for yourself at [avijeets.com](http://avijeets.com/).
 
-<img src="http://avijeets.com/index.png" alt="Preview">
+<img src="https://raw.github.com/avijeets/avijeets.com/master/index.png" alt="Preview">
 
 
 Installation
