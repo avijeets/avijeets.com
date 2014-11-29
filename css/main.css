@@ -262,8 +262,8 @@ a:after {
 	margin-bottom: 0px;
 	
 	font-weight: 700;
-	font-size: 20px;
-	letter-spacing: 2px;
+	font-size: 30px;
+	letter-spacing: 1px;
 	text-align: center;
 	color: white;
 }
@@ -275,7 +275,7 @@ a:after {
 	
 	font-weight: 500;
 	font-size: 15px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	text-align: center;
 	color: white;
 }
