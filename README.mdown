@@ -1,6 +1,0 @@
-avijeets.com
-====
-
-Built using bootstrap and HTML5. 
-
-<img src="https://github.com/avijeets/avijeets.com/raw/gh-pages/images/screenshot.png" alt="Preview">
