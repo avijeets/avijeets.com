@@ -1577,8 +1577,8 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #59ABE3 !important;
-			text-decoration: none;
+			color: #fff !important;
+			border-bottom: dotted 1px;
 		}
 
 	strong, b {
