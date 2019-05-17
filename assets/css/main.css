@@ -2095,12 +2095,12 @@
 
 	ul {
 		list-style: none;
-		margin: 0 0 2em 0;
+		margin: 0 0 0em 0;
 		padding-left: 1em;
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: 0em;
 		}
 
 		ul.alt {
