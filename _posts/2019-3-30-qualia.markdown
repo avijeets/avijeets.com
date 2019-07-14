@@ -1,0 +1,27 @@
+---
+layout: post
+title: Qualia
+tags: [iOS, Swift]
+image: '/images/posts/qualia/icon.png'
+---
+
+I took a philosophy course during my senior year at Rutgers called [Mind, Machines, and Persons](https://philosophy.rutgers.edu/197-undergraduate/course-descriptions/fall-2016/826-phil-329-minds-machines-and-persons) which opened my eyes to the implications that face a society that adopts technology as quickly as it has. A ubiquitous experience is feeling consistently lonely while society is more closely connected online than ever before. 
+
+However there are unique individual experiences to the many advancemenets of technology, such as split views on the potential rise of AI guiding society, that can be classified as *qualia*.
+
+> Philosophers often use the term 'qualia' to refer to the introspectively accessible, phenomenal aspects of our mental lives.
+
+
+### Mission
+
+This project came about from the notion of capturing the billions of qualia to everyday phenomena. I started off by building the foundation for an iOS application that could store journal entries and displaying them in an engaging manner. Fortunately, [Ryan](http://ryans.exposed/) helped take the project to the next level with a great sense of design. We added functionality for logging your mood on a subjective scale, and made the journal entry feature optional for saving a post. Furthermore with the data captured from the mood entry, we built in a line chart that would dynamically update and show the mood progression. 
+
+### Privacy
+
+It was extremely important for us to make privacy the main focus given the nature of journalling being a very personal experience. Obviously, using a remote database to store user entries were immediately ruled out. Fortunately there was a great solution for data persistence  on iOS applications that wasn't [Core Data](https://davedelong.com/blog/2018/05/09/the-laws-of-core-data/) called Realm. I built in the functionality for Realm to store the entries on the device itself which keeps the entire application experience secure and private (and available offline!).
+
+Although this provides a better experience for users, it is impossible for us to leverage user data to grow the application the way users would want.  Without using a remote database, it is impossible for developers to see into user entries (good) but there isn't a potential to use analytics or machine learning to better understand user behavior (bad). In fact with all entries being stored on the device, all user data can be lost by simply deleting the application or getting a different device. We built in a feature within the application to export entries to a CSV format to combat the issue of losing all user data. However, this is a risk we are more than willing to take with Qualia. Privacy is inherently important with the rise of technology and I'd be happier with slower growth if that meant for a safe, secure, and private user experience. 
+
+### Status
+
+I'm working on gathering user feedback on the current prototype and implementing features that would be helpful. 

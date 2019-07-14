@@ -1,0 +1,24 @@
+---
+layout: post
+title: Hoot
+tags: [iOS, Swift]
+image: '/images/posts/hoot/icon.jpg'
+---
+
+A couple friends and I came together to learn iOS and ship our first application to the Apple App Store in 2015. Hoot was set up to ease the stress of college classes with organizing all communication into the right pools. 
+
+![](/images/posts/hoot/one.png) 
+
+## Features
+
+> Hoot is a community homework helper and event informer that provides a variety of features:
+
+- Ask questions to anyone in your college.
+- Answer questions from anyone in your college.
+- Create groups for your classes to ask/answer a specific array of people.
+- Create events for review sessions/campus wide events.
+- Inform others that you are going to the event by signing up.
+- Gain points for performing actions within the app to acquire tokens that can be used to ask more questions.
+
+
+![](/images/posts/hoot/two.png) ![](/images/posts/hoot/three.png)

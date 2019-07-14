@@ -1,0 +1,14 @@
+---
+layout: post
+title: Betadrop
+tags: [iOS, Swift]
+image: '/images/posts/betadrop/icon.png'
+---
+
+My friend Kyle Ryan and I spent months researching the dearth of quantitative and qualitative feedback prevalent in modern technology platforms. As engineers learning the mobile iOS platform, our mission became:
+
+> Build a system that makes it easy for people to get feedback in order to make better decisions.
+
+We did research on feedback pools and eventually delved down the path to solving three major findings: using gestures to provide feedback easier, building a novel feedback interface, and  visualizing results that could be understood at a glance. 
+
+<a href="https://medium.com/@kylry/betadrop-announcement-5484778d0f25"><button class='c-btn c-btn--full'>Continue Reading on Medium</button></a>
