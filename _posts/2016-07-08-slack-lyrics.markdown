@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Slack Lyrics
+title: Slack Lyrics - Reference Genius song pages on Slack
 tags: [javascript, nodejs]
 ---
 

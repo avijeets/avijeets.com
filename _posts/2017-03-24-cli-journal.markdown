@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CLI Journal
+title: CLI Journal - Secure logs for Command Line
 tags: [Flask, Python]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FocusLoop
+title: FocusLoop - Productivity tracking with watchOS
 tags: [iOS, Swift, watchOS]
 ---
 

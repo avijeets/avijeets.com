@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GitHub Jobs
+title: Job Explorer - Quickly filter GitHub Jobs API results
 tags: [nodejs, javascript]
 ---
 

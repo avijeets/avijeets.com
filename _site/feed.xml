@@ -5,13 +5,13 @@
     <description>Brief collection of projects I have recently been tinkering with.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 Jul 2019 17:32:30 -0400</pubDate>
-    <lastBuildDate>Sun, 14 Jul 2019 17:32:30 -0400</lastBuildDate>
+    <pubDate>Sun, 21 Jul 2019 02:36:24 -0400</pubDate>
+    <lastBuildDate>Sun, 21 Jul 2019 02:36:24 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
 
     
       <item>
-        <title>DropDiscuss</title>
+        <title>DropDiscuss - Communities for vinyl enthusiasts</title>
         <description>&lt;p&gt;An iOS application that seamlessly lets users create posts and groups related to music album (specifically vinyl) releases. Users can compose messages for a global feed or for their group’s active members. The application is built with iOS, Swift 4.2, and Firebase.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/dropdiscuss/one.png&quot; alt=&quot;&quot; /&gt;
@@ -26,7 +26,7 @@
       </item>
     
       <item>
-        <title>Naval API</title>
+        <title>Naval API - Retrieve quotes by Naval Ravikant</title>
         <description>&lt;p&gt;This project exposes a JSON API for users to make GET requests and retrieve specific collections of quotes by AngelList co-founder and self-proclaimed philosopher Naval Ravikant.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/naval/landing.png&quot; alt=&quot;Landing page for API&quot; /&gt;
@@ -43,7 +43,7 @@
       </item>
     
       <item>
-        <title>Qualia</title>
+        <title>Qualia - Mindful mood tracking</title>
         <description>&lt;p&gt;I took a philosophy course during my senior year at Rutgers called &lt;a href=&quot;https://philosophy.rutgers.edu/197-undergraduate/course-descriptions/fall-2016/826-phil-329-minds-machines-and-persons&quot;&gt;Mind, Machines, and Persons&lt;/a&gt; which opened my eyes to the implications that face a society that adopts technology as quickly as it has. A ubiquitous experience is feeling consistently lonely while society is more closely connected online than ever before.&lt;/p&gt;
 
 &lt;p&gt;However there are unique individual experiences to the many advancemenets of technology, such as split views on the potential rise of AI guiding society, that can be classified as &lt;em&gt;qualia&lt;/em&gt;.&lt;/p&gt;
@@ -72,7 +72,7 @@
       </item>
     
       <item>
-        <title>GitHub Jobs</title>
+        <title>Job Explorer - Quickly filter GitHub Jobs API results</title>
         <description>&lt;p&gt;A straightforward full-stack application that parses the GitHub Jobs API based off two user-inputted fields of job role and location. The application is built with Node.js, Express, and EJS to take in the API endpoint based off of the user inputs and display the objects that are returned.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/ghj/one.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
@@ -85,7 +85,7 @@
       </item>
     
       <item>
-        <title>FocusLoop</title>
+        <title>FocusLoop - Productivity tracking with watchOS</title>
         <description>&lt;p&gt;For a while, I have thought about how great and straightforward Apple Watch’s Activity loops are with displaying your daily physical activity. Imagine there was a similar diagram for your productivity levels.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -113,7 +113,7 @@
       </item>
     
       <item>
-        <title>CLI Journal</title>
+        <title>CLI Journal - Secure logs for Command Line</title>
         <description>&lt;p&gt;This project is a command-line interface application that allows for users to store, read, delete, and search for journal entries. CLI Journal is written with Python, Flask, and Peewee, while the journal entries are stored in SQLite.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://github.com/avijeets/cli-journal&quot;&gt;&lt;button class=&quot;c-btn c-btn--full&quot;&gt;See Source Code on GitHub&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
@@ -124,7 +124,7 @@
       </item>
     
       <item>
-        <title>Betadrop</title>
+        <title>Betadrop - Qualitative feedback system</title>
         <description>&lt;p&gt;My friend Kyle Ryan and I spent months researching the dearth of quantitative and qualitative feedback prevalent in modern technology platforms. As engineers learning the mobile iOS platform, our mission became:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -141,7 +141,7 @@
       </item>
     
       <item>
-        <title>ConnectFour</title>
+        <title>ConnectFour - Zero sum game for iMessage</title>
         <description>&lt;p&gt;At the developer conference WWDC in 2016, Apple had announced the release of an entire App Store comprised of applications solely meant to be shared with another recipient via iMessage. This announcement opened the doors for stickers, games, and posts to be shared between individuals/groups. My friend Amar and I decided to try out building the collaborative zero-zum ConnectFour game solely through the new iMessage API. Before the iOS had publicly launched and the iMessage App Store was eventually unveiled, Amar and I had finished our working copy of the ConnectFour game playable between two iMessage accounts.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Disclaimer: Potential breaking points are iPads and group chats!&lt;/em&gt;&lt;/p&gt;
@@ -154,7 +154,7 @@
       </item>
     
       <item>
-        <title>Slack Lyrics</title>
+        <title>Slack Lyrics - Reference Genius song pages on Slack</title>
         <description>&lt;p&gt;SlackLyrics is a Node.js application that uses the Genius and Slack API to request a query and return the Genius reults in a Slack message.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/avijeets/SlackLyrics&quot;&gt;&lt;button class=&quot;c-btn c-btn--full&quot;&gt;See Source Code on GitHub&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
@@ -165,7 +165,7 @@
       </item>
     
       <item>
-        <title>Hoot</title>
+        <title>Hoot - Online study groups</title>
         <description>&lt;p&gt;A couple friends and I came together to learn iOS and ship our first application to the Apple App Store in 2015. Hoot was set up to ease the stress of college classes with organizing all communication into the right pools.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/hoot/one.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DropDiscuss
+title: DropDiscuss - Communities for vinyl enthusiasts
 tags: [iOS, Swift]
 ---
 

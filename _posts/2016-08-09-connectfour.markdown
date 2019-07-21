@@ -1,5 +1,5 @@
 ---
-title: ConnectFour
+title: ConnectFour - Zero sum game for iMessage
 layout: post
 tags: [iOS, Swift, watchOS]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Betadrop
+title: Betadrop - Qualitative feedback system
 tags: [iOS, Swift]
 image: '/images/posts/betadrop/icon.png'
 ---
