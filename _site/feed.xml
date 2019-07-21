@@ -5,8 +5,8 @@
     <description>Brief collection of projects I have recently been tinkering with.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Jul 2019 02:36:24 -0400</pubDate>
-    <lastBuildDate>Sun, 21 Jul 2019 02:36:24 -0400</lastBuildDate>
+    <pubDate>Sun, 21 Jul 2019 02:41:06 -0400</pubDate>
+    <lastBuildDate>Sun, 21 Jul 2019 02:41:06 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
 
     
@@ -102,8 +102,8 @@
       </item>
     
       <item>
-        <title>Spell Check with Bloom Filters</title>
-        <description>&lt;p&gt;In the Rutgers Computer Science course, &lt;a href=&quot;https://github.com/avijeets/SlackLyrics&quot;&gt;Principles of Programming Languages&lt;/a&gt;, I was able to learn more about programming language paradigms and how their compilers are built to execute in a specified manner. The coursework delved deep into Functional Programming with Scheme for a good portion of the course, and students were able to build out projects in a completely new approach. For example, we implemented a smart spell check which uses the probabilistic data structure, Bloom Filters, to determine if the word is potentially in a set of properly-spelled words.&lt;/p&gt;
+        <title>SpellCheck - Using Bloom Filters to recommend fixes to typos</title>
+        <description>&lt;p&gt;In the Rutgers Computer Science course, &lt;a href=&quot;https://www.cs.rutgers.edu/courses/principles-of-programming-languages&quot;&gt;Principles of Programming Languages&lt;/a&gt;, I was able to learn more about programming language paradigms and how their compilers are built to execute in a specified manner. The coursework delved deep into Functional Programming with Scheme for a good portion of the course, and students were able to build out projects in a completely new approach. For example, we implemented a smart spell check which uses the probabilistic data structure, Bloom Filters, to determine if the word is potentially in a set of properly-spelled words.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/avijeets/SpellCheckInfrastructure&quot;&gt;&lt;button class=&quot;c-btn c-btn--full&quot;&gt;See Source Code on GitHub&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
