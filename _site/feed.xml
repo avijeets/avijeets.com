@@ -5,8 +5,8 @@
     <description>Brief collection of projects I have recently been tinkering with.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Jul 2019 20:46:57 -0400</pubDate>
-    <lastBuildDate>Sun, 21 Jul 2019 20:46:57 -0400</lastBuildDate>
+    <pubDate>Sun, 21 Jul 2019 22:43:56 -0400</pubDate>
+    <lastBuildDate>Sun, 21 Jul 2019 22:43:56 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
 
     
@@ -122,6 +122,8 @@
         <title>CLI Journal - Secure logs for Command Line</title>
         <description>&lt;p&gt;This project is a command-line interface application that allows for users to store, read, delete, and search for journal entries. CLI Journal is written with Python, Flask, and Peewee, while the journal entries are stored in SQLite.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/images/posts/cli-journal/one.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&quot;http://github.com/avijeets/cli-journal&quot;&gt;&lt;button class=&quot;c-btn c-btn--full&quot;&gt;See Source Code on GitHub&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 24 Mar 2017 00:00:00 -0400</pubDate>
@@ -137,7 +139,11 @@
   &lt;p&gt;Build a system that makes it easy for people to get feedback in order to make better decisions.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;&lt;img src=&quot;/images/posts/betadrop/one.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;We did research on feedback pools and eventually delved down the path to solving three major findings: using gestures to provide feedback easier, building a novel feedback interface, and  visualizing results that could be understood at a glance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/betadrop/two.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://medium.com/@kylry/betadrop-announcement-5484778d0f25&quot;&gt;&lt;button class=&quot;c-btn c-btn--full&quot;&gt;Continue Reading on Medium&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
