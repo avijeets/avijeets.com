@@ -37,7 +37,8 @@ $grid-gutter: $base-spacing-unit;
   } // 33.33333%;
 
   &--2-4-s {
-    width: percentage(2 / 4);
+    width: 100%;
+    text-align: center !important;
   } // 50%
 
   &--3-4-s {
