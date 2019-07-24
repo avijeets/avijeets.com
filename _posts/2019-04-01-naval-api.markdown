@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Naval API - Retrieve quotes by Naval Ravikant
-tags: [nodejs, javascript]
+tags: [NodeJS, Javascript]
 ---
 
 

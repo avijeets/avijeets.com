@@ -5,10 +5,27 @@
     <description>Brief collection of projects I have recently been tinkering with.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Jul 2019 00:09:33 -0400</pubDate>
-    <lastBuildDate>Mon, 22 Jul 2019 00:09:33 -0400</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <pubDate>Tue, 23 Jul 2019 21:59:02 -0400</pubDate>
+    <lastBuildDate>Tue, 23 Jul 2019 21:59:02 -0400</lastBuildDate>
+    <generator>Jekyll v3.6.3</generator>
 
+    
+      <item>
+        <title>AR Posters - Music video posters with Augmented Reality</title>
+        <description>&lt;p&gt;I’ve been interested in learning how iOS applications can provide engaging Augmented Reality experiences since Apple released the ARKit framework in 2017. Much to my surprise, the framework is backed by comprehensive documentation making it incredibly straightforward for someone with proficient iOS knowledge to build an AR experience. One capability within ARKit I decided to hone in on was the quick image detection. With the capability of detecting if a specified image appears in the camera’s view, I decided to overlay the image with a music video using the rendering engine SceneKit.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/images/posts/ar-posters/app.gif&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Now that Apple is releasing ARKit 3 with iOS 13, I’m excited to play with the new features, such as People Occlusion. This allows for someone to walk in front of or behind an object on the AR plane thus creating an even more immersive experience. With image detection, overlay and people occlusion, the potential for Augmented Reality is vast.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/avijeets/AR-Posters&quot;&gt;&lt;button class=&quot;c-btn c-btn--full&quot;&gt;See Source Code on GitHub&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Jul 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/ar-posters/</link>
+        <guid isPermaLink="true">http://localhost:4000/ar-posters/</guid>
+      </item>
     
       <item>
         <title>DropDiscuss - Communities for vinyl enthusiasts</title>
@@ -289,11 +306,21 @@
             <title>Categories</title>
             <description>Links to the different categories of projects listed throughout this site:
 
-* [GitHub](http://github.com/avijeets)
-* [LinkedIn](http://linkedin.com/in/avijeets)</description>
+* [Flask](/tag/Flask/)
+* [Python](/tag/Python/)
+* [Swift](/tag/Swift/)
+* [iOS](/tag/iOS/)
+* [Javascript](/tag/Javascript/)
+* [NodeJS](/tag/NodeJS/)
+* [watchOS](/tag/watchOS/)
+* [Augmented Reality](/tag/AugmentedReality/)
+* [Scheme](/tag/Scheme/)
+* [Functional Programming](/tag/FunctionalProgramming/)</description>
             <link>http://localhost:4000/tags.html</link>
           </item>
         
+      
+    
       
     
       
