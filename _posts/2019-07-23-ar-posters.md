@@ -9,8 +9,9 @@ I've been interested in learning how iOS applications can provide engaging Augme
 <p align="center">
 <img src="/images/posts/ar-posters/app.gif">
 </p>
+*Overlaying A Tribe Called Quest's Low End Theory album cover with the We Got the Jazz music video.*
 
-Now that Apple is releasing ARKit 3 with iOS 13, I'm excited to play with the new features, such as People Occlusion. This allows for someone to walk in front of or behind an object on the AR plane thus creating an even more immersive experience. With image detection, overlay and people occlusion, the potential for Augmented Reality is vast. 
+Now that Apple is releasing ARKit 3 with iOS 13, I'm excited to play with the new features such as People Occlusion. This allows for someone to walk in front of or behind an object on the AR plane thus creating an even more immersive experience. With image detection, overlay and people occlusion, the potential for Augmented Reality is vast. 
 
 
 <a href="https://github.com/avijeets/AR-Posters"><button class='c-btn c-btn--full'>See Source Code on GitHub</button></a>
