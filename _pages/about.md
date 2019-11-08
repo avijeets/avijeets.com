@@ -8,12 +8,12 @@ headline: 'About Me'
 
 #### Hey! My name is Avijeet Sachdev, but you can call me Avi. 
 
-I love tinkering with technology to turn impossibile ideas into tangible products, especially ones that can empower people. I am a Software Engineer in New York City, currently working as an iOS Engineer at [Healthfirst](http://healthfirst.org). My technical interests include Full-Stack web applications, iOS application development, and Internet of Things (IoT) systems. The languages I love to build applications with are Swift, Python, and Javascript.
+I love tinkering with technology to turn impossibile ideas into tangible products, especially ones that can empower people. I am a Software Engineer in New York City, currently working as an iOS Engineer at [Healthfirst](http://healthfirst.org).
+
+Furthermore, I have a deep appreciation for art that pushes the needle forward, speaks volumes subtly, and exudes creativity. I've spent countless hours exploring the diverse works of UI/UX design, music production, street photography, and fashion. A selected few artists that hold great influence on me are [A Tribe Called Quest](http://atribecalledquest.com/), [Madlib](https://www.stonesthrow.com/madlib), [Matt Stuart](http://www.mattstuart.com/photography), and [Ronnie Fieg](https://shop.ronniefieg.com/blogs/news). I am known to collect vinyl records and sneakers.
 
 <img src="/images/pages/amoeba.jpg">
 *Amoeba Record Store in Los Angeles, CA*
-
-Furthermore, I have a deep appreciation for art that pushes the needle forward, speaks volumes subtly, and exudes creativity. I've spent countless hours exploring the diverse works of UI/UX design, music production, street photography, and fashion. A selected few artists that hold great influence on me are [A Tribe Called Quest](http://atribecalledquest.com/), [Madlib](https://www.stonesthrow.com/madlib), [Matt Stuart](http://www.mattstuart.com/photography), and [Ronnie Fieg](https://shop.ronniefieg.com/blogs/news). I am known to collect vinyl records and sneakers.
 
 <hr>
 

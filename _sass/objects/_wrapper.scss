@@ -6,6 +6,11 @@
   padding: double($base-spacing-unit) 0;
 }
 
+.o-wrapper-short-bio {
+	padding: double($base-spacing-unit) 0;
+	padding-bottom: 0px !important;
+}
+
 /**
  * Sticky footer
  */

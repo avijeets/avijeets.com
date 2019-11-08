@@ -5,10 +5,54 @@
     <description>Brief collection of projects I have recently been tinkering with.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Jul 2019 22:08:34 -0400</pubDate>
-    <lastBuildDate>Tue, 23 Jul 2019 22:08:34 -0400</lastBuildDate>
+    <pubDate>Fri, 08 Nov 2019 14:43:17 -0500</pubDate>
+    <lastBuildDate>Fri, 08 Nov 2019 14:43:17 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
+    
+      <item>
+        <title>SixthBoro - Realtime iOS application for PATH trains</title>
+        <description>&lt;p&gt;Every city with a reliable public transportation system is seemingly matched with an unbelievably low-quality iOS application to display useful information to commuters. Obviously this proposition stands true for NJ PATH train riders as well. The official PATH iOS application (built with Xamarin) leaves much to be desired whether it be functionality or design. In situations trying to plan train schedules in a hurry, users are often left waiting as the application loads inefficently or left fiddling endlessly trying to make sense of the hard-to-understand user interface.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;version-10&quot;&gt;Version 1.0&lt;/h3&gt;
+
+&lt;p&gt;After a couple weeks of designing, prototyping, and refactoring my take on a PATH iOS application, I’m happy to showcase the current state of &lt;a href=&quot;https://sixthboro.app&quot;&gt;SixthBoro&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/images/posts/sixthboro/share.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Share train times seamlessly by swiping on the train cell.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;SixthBoro, named after the common phrase used to describe Jersey City and Hoboken as being New York City’s next borough, is a lightweight and reliable application to seamlessly check train times. The application is packed with iOS features to improve the user experience and provide a quick way to get the information you need.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/images/posts/sixthboro/time.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;SixthBoro allows for users to tap between relative and local times seamlessly.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Contrary to the publicly available official PATH app, SixthBoro’s UI aims to be very straightforward, simple, and clean. There is no interest in bogging down the experience by showing you information you likely won’t need on a realtime basis, such as untimely alerts or links to PATH’s website. The goal is to show you realtime train data for you to better plan your schedule with a personable, iOS user experience. Alongside straightforward functionality, SixthBoro displays useful information like train status, train line color, and time until a train arrives to the given station. Lastly, if you happen to pull up SixthBoro at a later time, you can even pull-to-refresh the train data and get a realtime result.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/images/posts/sixthboro/favorites.png&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Favorite the stations you frequent.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Commuters can now set favorite stations which they commonly frequent reducing the work of navigating throughout the application just to find desired results. With SixthBoro, you can even set up notifications for specific trains giving commuters the comfort of not having to check back on train times so often. Another simple feature we’ve gotten great feedback on is the ability to switch between relative and local time providing better context on scheduling times.&lt;/p&gt;
+
+&lt;p&gt;It has been incredibly fun building an application that could be immensely helpful to any commuter traveling by way of PATH on a regular basis. Feel free to leave me a note if you have any suggestions or comments at sixthboroapp@gmail.com!&lt;/p&gt;
+
+&lt;h3 id=&quot;status&quot;&gt;Status&lt;/h3&gt;
+
+&lt;p&gt;The application is now live on the Apple App Store! You can try the most recent version on your iOS devices and hopefully have a great experience in doing so.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://sixthboro.app&quot;&gt;&lt;button class=&quot;c-btn c-btn--full&quot;&gt;See the SixthBoro website&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Aug 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/sixthboro/</link>
+        <guid isPermaLink="true">http://localhost:4000/sixthboro/</guid>
+      </item>
     
       <item>
         <title>AR Posters - Music video posters with Augmented Reality</title>
@@ -33,7 +77,6 @@
         <description>&lt;p&gt;An iOS application that seamlessly lets users create posts and groups related to music album (specifically vinyl) releases. Users can compose messages for a global feed or for their group’s active members. The application is built with iOS, Swift 4.2, and Firebase.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/dropdiscuss/one.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;/images/posts/dropdiscuss/two.png&quot; alt=&quot;&quot; /&gt;
 &lt;img src=&quot;/images/posts/dropdiscuss/three.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://github.com/avijeets/DropDiscuss&quot;&gt;&lt;button class=&quot;c-btn c-btn--full&quot;&gt;See Source Code on GitHub&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
@@ -234,12 +277,12 @@
             <title>About Me</title>
             <description>&lt;h4 id=&quot;hey-my-name-is-avijeet-sachdev-but-you-can-call-me-avi&quot;&gt;Hey! My name is Avijeet Sachdev, but you can call me Avi.&lt;/h4&gt;
 
-&lt;p&gt;I love tinkering with technology to turn impossibile ideas into tangible products, especially ones that can empower people. I am a Software Engineer in New York City, currently working as an iOS Engineer at &lt;a href=&quot;http://healthfirst.org&quot;&gt;Healthfirst&lt;/a&gt;. My technical interests include Full-Stack web applications, iOS application development, and Internet of Things (IoT) systems. The languages I love to build applications with are Swift, Python, and Javascript.&lt;/p&gt;
+&lt;p&gt;I love tinkering with technology to turn impossibile ideas into tangible products, especially ones that can empower people. I am a Software Engineer in New York City, currently working as an iOS Engineer at &lt;a href=&quot;http://healthfirst.org&quot;&gt;Healthfirst&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, I have a deep appreciation for art that pushes the needle forward, speaks volumes subtly, and exudes creativity. I’ve spent countless hours exploring the diverse works of UI/UX design, music production, street photography, and fashion. A selected few artists that hold great influence on me are &lt;a href=&quot;http://atribecalledquest.com/&quot;&gt;A Tribe Called Quest&lt;/a&gt;, &lt;a href=&quot;https://www.stonesthrow.com/madlib&quot;&gt;Madlib&lt;/a&gt;, &lt;a href=&quot;http://www.mattstuart.com/photography&quot;&gt;Matt Stuart&lt;/a&gt;, and &lt;a href=&quot;https://shop.ronniefieg.com/blogs/news&quot;&gt;Ronnie Fieg&lt;/a&gt;. I am known to collect vinyl records and sneakers.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/pages/amoeba.jpg&quot; /&gt;
 &lt;em&gt;Amoeba Record Store in Los Angeles, CA&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Furthermore, I have a deep appreciation for art that pushes the needle forward, speaks volumes subtly, and exudes creativity. I’ve spent countless hours exploring the diverse works of UI/UX design, music production, street photography, and fashion. A selected few artists that hold great influence on me are &lt;a href=&quot;http://atribecalledquest.com/&quot;&gt;A Tribe Called Quest&lt;/a&gt;, &lt;a href=&quot;https://www.stonesthrow.com/madlib&quot;&gt;Madlib&lt;/a&gt;, &lt;a href=&quot;http://www.mattstuart.com/photography&quot;&gt;Matt Stuart&lt;/a&gt;, and &lt;a href=&quot;https://shop.ronniefieg.com/blogs/news&quot;&gt;Ronnie Fieg&lt;/a&gt;. I am known to collect vinyl records and sneakers.&lt;/p&gt;
 
 &lt;hr /&gt;
 

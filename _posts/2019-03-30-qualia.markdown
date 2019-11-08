@@ -31,4 +31,4 @@ Although this provides a better experience for users, it is impossible for us to
 
 ### Status
 
-I'm working on gathering user feedback on the current prototype and implementing features that would be helpful. 
+I'm working on gathering user feedback on the current prototype and implementing features that would be helpful.
