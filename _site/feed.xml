@@ -5,8 +5,8 @@
     <description>Brief collection of projects I have recently been tinkering with.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Nov 2019 14:43:17 -0500</pubDate>
-    <lastBuildDate>Fri, 08 Nov 2019 14:43:17 -0500</lastBuildDate>
+    <pubDate>Fri, 08 Nov 2019 14:50:40 -0500</pubDate>
+    <lastBuildDate>Fri, 08 Nov 2019 14:50:40 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
     
@@ -20,24 +20,18 @@
 
 &lt;p&gt;After a couple weeks of designing, prototyping, and refactoring my take on a PATH iOS application, I’m happy to showcase the current state of &lt;a href=&quot;https://sixthboro.app&quot;&gt;SixthBoro&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/images/posts/sixthboro/share.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Share train times seamlessly by swiping on the train cell.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/sixthboro/share.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Share train times seamlessly by swiping on the train cell.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;SixthBoro, named after the common phrase used to describe Jersey City and Hoboken as being New York City’s next borough, is a lightweight and reliable application to seamlessly check train times. The application is packed with iOS features to improve the user experience and provide a quick way to get the information you need.&lt;/p&gt;
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/images/posts/sixthboro/time.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;SixthBoro allows for users to tap between relative and local times seamlessly.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/sixthboro/time.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;SixthBoro allows for users to tap between relative and local times seamlessly.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Contrary to the publicly available official PATH app, SixthBoro’s UI aims to be very straightforward, simple, and clean. There is no interest in bogging down the experience by showing you information you likely won’t need on a realtime basis, such as untimely alerts or links to PATH’s website. The goal is to show you realtime train data for you to better plan your schedule with a personable, iOS user experience. Alongside straightforward functionality, SixthBoro displays useful information like train status, train line color, and time until a train arrives to the given station. Lastly, if you happen to pull up SixthBoro at a later time, you can even pull-to-refresh the train data and get a realtime result.&lt;/p&gt;
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/images/posts/sixthboro/favorites.png&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Favorite the stations you frequent.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/sixthboro/favorites.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Favorite the stations you frequent.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Commuters can now set favorite stations which they commonly frequent reducing the work of navigating throughout the application just to find desired results. With SixthBoro, you can even set up notifications for specific trains giving commuters the comfort of not having to check back on train times so often. Another simple feature we’ve gotten great feedback on is the ability to switch between relative and local time providing better context on scheduling times.&lt;/p&gt;
 
