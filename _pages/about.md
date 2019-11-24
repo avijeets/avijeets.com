@@ -8,7 +8,7 @@ headline: 'About Me'
 
 #### Hey! My name is Avijeet Sachdev, but you can call me Avi. 
 
-I love tinkering with technology to turn impossibile ideas into tangible products, especially ones that can empower people. I am a Software Engineer in New York City, currently working as an iOS Engineer at [Healthfirst](http://healthfirst.org).
+I love tinkering with technology to turn impossibile ideas into tangible products, especially ones that can empower people. I am a Software Engineer in New York City, currently working as an iOS Engineer at Healthfirst.
 
 Furthermore, I have a deep appreciation for art that pushes the needle forward, speaks volumes subtly, and exudes creativity. I've spent countless hours exploring the diverse works of UI/UX design, music production, street photography, and fashion. A selected few artists that hold great influence on me are [A Tribe Called Quest](http://atribecalledquest.com/), [Madlib](https://www.stonesthrow.com/madlib), [Matt Stuart](http://www.mattstuart.com/photography), and [Ronnie Fieg](https://shop.ronniefieg.com/blogs/news). I am known to collect vinyl records and sneakers.
 
@@ -47,15 +47,3 @@ I completed my undergraduate degree in Informatics, with an emphasis in Human-Co
 * What needs to be done to double the impact?
 
 *Source: [U.S Chief Data Scientist, DJ Patil](https://twitter.com/DJ44/status/819316928623902720).*
-
-<!-- 
-### Photos
-
-<img src="/images/pages/willis.jpg">
-*View from the 103rd floor of Willis Tower in Chicago, IL*
-
-<img src="/images/pages/moma.jpg">
-*Jackson Pollock's exhibit of abstract expressionism at the Museum of Modern Art in New York, NY*
-
-<img src="/images/pages/boston.jpg">
-*View from the Skywalk on the Prudential Center in Boston, MA* -->
