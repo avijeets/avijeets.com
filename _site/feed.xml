@@ -5,8 +5,8 @@
     <description>Brief collection of projects I have recently been tinkering with.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Nov 2019 19:35:29 -0500</pubDate>
-    <lastBuildDate>Mon, 11 Nov 2019 19:35:29 -0500</lastBuildDate>
+    <pubDate>Sun, 09 Feb 2020 16:08:20 -0500</pubDate>
+    <lastBuildDate>Sun, 09 Feb 2020 16:08:20 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
     
@@ -271,7 +271,7 @@
             <title>About Me</title>
             <description>&lt;h4 id=&quot;hey-my-name-is-avijeet-sachdev-but-you-can-call-me-avi&quot;&gt;Hey! My name is Avijeet Sachdev, but you can call me Avi.&lt;/h4&gt;
 
-&lt;p&gt;I love tinkering with technology to turn impossibile ideas into tangible products, especially ones that can empower people. I am a Software Engineer in New York City, currently working as an iOS Engineer at &lt;a href=&quot;http://healthfirst.org&quot;&gt;Healthfirst&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I love tinkering with technology to turn impossibile ideas into tangible products, especially ones that can empower people. I am a Software Engineer in New York City, currently working as an iOS Engineer at Healthfirst.&lt;/p&gt;
 
 &lt;p&gt;Furthermore, I have a deep appreciation for art that pushes the needle forward, speaks volumes subtly, and exudes creativity. I’ve spent countless hours exploring the diverse works of UI/UX design, music production, street photography, and fashion. A selected few artists that hold great influence on me are &lt;a href=&quot;http://atribecalledquest.com/&quot;&gt;A Tribe Called Quest&lt;/a&gt;, &lt;a href=&quot;https://www.stonesthrow.com/madlib&quot;&gt;Madlib&lt;/a&gt;, &lt;a href=&quot;http://www.mattstuart.com/photography&quot;&gt;Matt Stuart&lt;/a&gt;, and &lt;a href=&quot;https://shop.ronniefieg.com/blogs/news&quot;&gt;Ronnie Fieg&lt;/a&gt;. I am known to collect vinyl records and sneakers.&lt;/p&gt;
 
@@ -316,18 +316,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;Source: &lt;a href=&quot;https://twitter.com/DJ44/status/819316928623902720&quot;&gt;U.S Chief Data Scientist, DJ Patil&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;!-- 
-### Photos
-
-&lt;img src=&quot;/images/pages/willis.jpg&quot;&gt;
-*View from the 103rd floor of Willis Tower in Chicago, IL*
-
-&lt;img src=&quot;/images/pages/moma.jpg&quot;&gt;
-*Jackson Pollock's exhibit of abstract expressionism at the Museum of Modern Art in New York, NY*
-
-&lt;img src=&quot;/images/pages/boston.jpg&quot;&gt;
-*View from the Skywalk on the Prudential Center in Boston, MA* --&gt;
 </description>
             <link>http://localhost:4000/about/</link>
           </item>
