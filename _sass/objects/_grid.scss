@@ -5,6 +5,24 @@
 $grid-width: 700px;
 $grid-gutter: $base-spacing-unit;
 
+@media only screen and (max-device-width: 480px) {
+  .o-grid {
+    text-align: initial !important;
+  
+    @include clearfix();
+  
+    .o-grid {
+      margin-right: - $grid-gutter;
+      margin-left: - $grid-gutter;
+      padding: 0;
+    }
+  
+    &--full {
+      max-width: 100vw;
+    }
+  }
+}
+
 .o-grid {
   margin: 0 auto;
   max-width: $grid-width;
