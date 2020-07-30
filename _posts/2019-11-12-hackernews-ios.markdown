@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HackerNews-iOS
+title: HackerNews - Browse HackerNews submissions on iOS
 tags: [iOS, Swift]
 ---
 
