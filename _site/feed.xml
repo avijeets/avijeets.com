@@ -5,10 +5,42 @@
     <description>Brief collection of projects I have recently been tinkering with.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Apr 2020 02:07:16 -0400</pubDate>
-    <lastBuildDate>Mon, 27 Apr 2020 02:07:16 -0400</lastBuildDate>
+    <pubDate>Thu, 30 Jul 2020 00:03:15 -0400</pubDate>
+    <lastBuildDate>Thu, 30 Jul 2020 00:03:15 -0400</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
+    
+      <item>
+        <title>Covid-iOS - Daily count of cases of COVID-19</title>
+        <description>&lt;p&gt;During the 2020 quarantine, I decided to spend some time learning SwiftUI and a few other technologies that have been on my to-do list for far too long. What better idea than to build an application that spreads awareness of the coronavirus itself? Covid-iOS is an application that displays daily cases of COVID-19 by states/regions in USA. The subsections detail how many of those patients were hospitalized, recovered, passed away and are still testing positive. I was able to use SwiftUI and the MVVM architecture to build out this project relatively quickly and leave room for building future features seamlessly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/covid/iOS.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To familiarize myself with Continuous Integration and Continuous Delivery (CI/CD) systems within the iOS environment, this project also leveraged GitHub Actions which is run on every Pull Request (PR). This system ensures the project builds successfully and all unit/integration tests pass before the option to merge pull requests becomes available.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/covid/watchOS.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The beauty of SwiftUI shined on the project when porting from iOS to including a complementary watchOS target application. After a short amount of time and not many lines of code, the data flow of grabbing and storing API data was incredibly straightforward. Thanks to SwiftUI’s @State and @ObservedObject, the API data was stored universally leaving watchOS to simply grab and display such data. Lastly, the application’s user interface (UI) stays dynamic based on the user’s OS setting on whether they’re using light/dark mode!&lt;/p&gt;
+
+&lt;p&gt;All in all using SwiftUI, instead of the industry-standard UIKit, was an effortless and uncomplicated experience. The declarative programming approach of SwiftUI made using the MVVM architecture obvious and resulted in an efficent and versatile codebase.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/avijeets/covid-ios&quot;&gt;&lt;button class=&quot;c-btn c-btn--full&quot;&gt;See Source Code on GitHub&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/covid/</link>
+        <guid isPermaLink="true">http://localhost:4000/covid/</guid>
+      </item>
+    
+      <item>
+        <title>HackerNews-iOS</title>
+        <description>&lt;p&gt;Trying out the new SwiftUI library, introduced with Xcode 11, to build out the UI of a straightforward master-detail application. This project pulls Hacker News articles through the &lt;a href=&quot;http://hn.algolia.com/api/&quot;&gt;Algolia API&lt;/a&gt; and displays them in a SwiftUI List (formerly known as UITableView within UIKit) with their respective HN upvotes. Clicking into any cell will bring up a WKWebView displaying the URL of the post.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://github.com/avijeets/HackerNews-SwiftUI&quot;&gt;&lt;button class=&quot;c-btn c-btn--full&quot;&gt;See Source Code on GitHub&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 12 Nov 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/hackernews-ios/</link>
+        <guid isPermaLink="true">http://localhost:4000/hackernews-ios/</guid>
+      </item>
     
       <item>
         <title>SixthBoro - Realtime iOS application for PATH trains</title>

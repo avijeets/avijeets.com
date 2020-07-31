@@ -1,0 +1,21 @@
+---
+layout: post
+title: Covid-iOS - Daily count of cases of COVID-19
+tags: [iOS, Swift]
+---
+
+During the 2020 quarantine, I decided to spend some time learning SwiftUI and a few other technologies that have been on my to-do list for far too long. What better idea than to build an application that spreads awareness of the coronavirus itself? Covid-iOS is an application that displays daily cases of COVID-19 by states/regions in USA. The subsections detail how many of those patients were hospitalized, recovered, passed away and are still testing positive. I was able to use SwiftUI and the MVVM architecture to build out this project relatively quickly and leave room for building future features seamlessly.
+
+
+![](/images/posts/covid/iOS.PNG)
+
+To familiarize myself with Continuous Integration and Continuous Delivery (CI/CD) systems within the iOS environment, this project also leveraged GitHub Actions which is run on every Pull Request (PR). This system ensures the project builds successfully and all unit/integration tests pass before the option to merge pull requests becomes available.
+
+
+![](/images/posts/covid/watchOS.PNG)
+
+The beauty of SwiftUI shined on the project when porting from iOS to including a complementary watchOS target application. After a short amount of time and not many lines of code, the data flow of grabbing and storing API data was incredibly straightforward. Thanks to SwiftUI’s @State and @ObservedObject, the API data was stored universally leaving watchOS to simply grab and display such data. Lastly, the application’s user interface (UI) stays dynamic based on the user’s OS setting on whether they’re using light/dark mode! 
+
+All in all using SwiftUI, instead of the industry-standard UIKit, was an effortless and uncomplicated experience. The declarative programming approach of SwiftUI went hand in hand with using the MVVM architecture, resulting in an efficient and versatile codebase.
+
+<a href="https://github.com/avijeets/covid-ios"><button class='c-btn c-btn--full'>See Source Code on GitHub</button></a>
