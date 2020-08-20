@@ -1,0 +1,19 @@
+---
+layout: post
+title: Escape Plan - Sample-based hip-hop beat tape
+tags: [Music]
+---
+
+Coming back to a hobby with a redefined vision is one of the most gratifying feelings I've experienced recently. 
+
+Before I picked up programming, I loved to dabble with electronics to find a way to make something creative. This included devling into photography, filmmaking, DJing, and music production. However, producing music on a computer was always a hobby that scared me the most - I have always been very picky with the style of music I would consume and I believed that it would take me years to get to the point of making music I would consider relatively good. 
+
+In October 2019, I decided to finally devote massive bouts of time to familiarize myself with music production. Prior to October, I learned the basics in a Rutgers class called [Making Music with Computers](https://www.masongross.rutgers.edu/07700135-making-music-with-computers-introduction-to-digital-audio-online/) that I had taken during my senior year. The coursework taught about DAWs (namely Cubase) and the vocabulary, process, and history behind capturing instrumentation within that software. The course expanded on Cubase but the material was easy to translate to other DAWs, such as Logic, especially with the help of an Akai MPK Mini that I used. 
+
+Now that the basics were down, I sought to improve my workflow by introducing [Maschine](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/) which would eventually be the driving force of all the production I did afterwards. Chopping up samples, adding in drums, experimenting with keys/synths, playing in a bass layer - everything would became a breeze. Once shelter-in-place went into effect in NJ/NYC for COVID-19, any and all free time went into some phase of this workflow. And after 4-5 long months of constant practice, I'm happily releasing a 7-track beat tape called Escape Plan ().
+
+![](/images/posts/escplan/album.png)
+
+This project is backed by countless hours of finding the right sounds and collaborating with others to improve my workflow, open my mind to different music, and learn more about the experiences fellow producers have had. A big shout out goes out to everyone that helped bring this project together, this project would not have been possible without those that pushed me forward and gave me feedback around the clock. 
+
+<a href="https://distrokid.com/hyperfollow/avi16/escape-plan"><button class='c-btn c-btn--full'>Stream Escape Plan</button></a>
