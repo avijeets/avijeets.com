@@ -1,0 +1,65 @@
+body {
+  background-color: #e07a5f;
+  padding: 90px;
+}
+
+h1 {
+  color: white;
+  font-family: Montserrat, serif;
+  font-weight: normal;
+  font-size: 8vh;
+}
+
+h2 {
+  color: white;
+  font-family: Montserrat, serif;
+  font-weight: bold;
+  font-size: 4vh;
+}
+
+h3 {
+  color: white;
+  font-weight: lighter;
+  font-family: Montserrat, serif;
+  font-size: 2.5vh;
+}
+
+a {
+  color: white;
+}
+
+.sub {
+  color: white;
+  font-family: Montserrat, serif;
+  font-weight: bold;
+  margin-top: -15px;
+  font-weight: 100;
+}
+
+@media (max-width: 1000px) {
+      body {
+        padding: 45px;
+      }
+
+      h1 {
+        width: 220px;
+      }
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: bold;
+  src: url('fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: normal;
+  src: url('fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: lighter;
+  src: url('fonts/Montserrat-Thin.ttf');
+}
