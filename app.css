@@ -26,7 +26,16 @@ h3 {
 
 a {
   color: white;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.35);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 120ms ease;
 }
+
+a:hover {
+  text-decoration-color: white;
+}
+
 
 .sub {
   color: white;
