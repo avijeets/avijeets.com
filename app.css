@@ -19,9 +19,13 @@ h2 {
 
 h3 {
   color: white;
-  font-weight: lighter;
+  font-weight: normal;
   font-family: Montserrat, serif;
-  font-size: 1.4rem;
+  font-size: 1.65rem;
+}
+
+.mobile-only {
+  display: none;
 }
 
 a {
@@ -51,7 +55,6 @@ a:hover {
       }
 
       h1 {
-        width: 643px;
         font-size: 4rem;
       }
 
@@ -60,7 +63,7 @@ a:hover {
       }
 
       h3 {
-        font-size: 1.25rem;
+        font-size: 1.45rem;
       }
 }
 
@@ -70,7 +73,6 @@ a:hover {
       }
 
       h1 {
-        width: 450px;
         font-size: 3.25rem;
       }
 
@@ -79,7 +81,11 @@ a:hover {
       }
 
       h3 {
-        font-size: 1.05rem;
+        font-size: 1.3rem;
+      }
+
+      .mobile-only {
+        display: inline;
       }
 }
 
@@ -89,7 +95,6 @@ a:hover {
       }
 
       h1 {
-        width: 225px;
         font-size: 2.5rem;
       }
 
@@ -98,7 +103,7 @@ a:hover {
       }
 
       h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
 }
 
