@@ -5,23 +5,24 @@ body {
 
 h1 {
   color: white;
-  font-family: Montserrat, serif;
+  font-family: Montserrat, sans-serif;
   font-weight: bold;
   font-size: 4.5rem;
 }
 
 h2 {
   color: white;
-  font-family: Montserrat, serif;
+  font-family: Montserrat, sans-serif;
   font-weight: bold;
   font-size: 2.25rem;
 }
 
 h3 {
   color: white;
-  font-weight: normal;
+  font-weight: 300;
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.65rem;
+  line-height: 1.55;
 }
 
 .mobile-only {
@@ -124,4 +125,12 @@ a:hover {
   font-family: Montserrat;
   font-weight: lighter;
   src: url('fonts/Montserrat-Thin.ttf');
+}
+
+@font-face {
+  font-family: Inter;
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  src: url('fonts/Inter-latin.woff2') format('woff2');
 }
