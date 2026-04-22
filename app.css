@@ -23,6 +23,7 @@ h3 {
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.65rem;
   line-height: 1.55;
+  max-width: 42rem;
 }
 
 .mobile-only {
@@ -39,15 +40,6 @@ a {
 
 a:hover {
   text-decoration-color: white;
-}
-
-
-.sub {
-  color: white;
-  font-family: Montserrat, serif;
-  font-weight: bold;
-  margin-top: -15px;
-  font-weight: 100;
 }
 
 @media (max-width: 1000px) {
@@ -119,12 +111,6 @@ a:hover {
   font-family: Montserrat;
   font-weight: normal;
   src: url('fonts/Montserrat-Regular.ttf');
-}
-
-@font-face {
-  font-family: Montserrat;
-  font-weight: lighter;
-  src: url('fonts/Montserrat-Thin.ttf');
 }
 
 @font-face {
