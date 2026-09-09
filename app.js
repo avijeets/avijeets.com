@@ -31,24 +31,6 @@
     });
   }
 
-  /* soft spotlight that follows the cursor inside a cell */
-  function setupSpotlight() {
-    if (!window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
-
-    document.addEventListener(
-      "pointermove",
-      function (event) {
-        var cell = event.target.closest ? event.target.closest(".cell") : null;
-        if (!cell) return;
-
-        var rect = cell.getBoundingClientRect();
-        cell.style.setProperty("--mx", event.clientX - rect.left + "px");
-        cell.style.setProperty("--my", event.clientY - rect.top + "px");
-      },
-      { passive: true }
-    );
-  }
-
   /* accordion cells in the past grid */
   function setupAccordions() {
     var triggers = document.querySelectorAll(".cell-trigger");
@@ -65,6 +47,5 @@
   }
 
   setupReveal();
-  setupSpotlight();
   setupAccordions();
 })();

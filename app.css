@@ -96,28 +96,7 @@ body {
   color: var(--ink-faint);
 }
 
-.eyebrow::before {
-  content: "";
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  margin-right: 0.7em;
-  border-radius: 50%;
-  background: #7ce0a4;
-  vertical-align: 0.12em;
-  box-shadow: 0 0 0 0 rgba(124, 224, 164, 0.6);
-  animation: pulse 2.8s ease-out infinite;
-}
 
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(124, 224, 164, 0.55);
-  }
-  70%,
-  100% {
-    box-shadow: 0 0 0 9px rgba(124, 224, 164, 0);
-  }
-}
 
 h1 {
   margin: 0;
@@ -188,16 +167,7 @@ h2 {
   flex-direction: column;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background:
-    linear-gradient(158deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.045));
-  background-color: var(--cell-bg);
-  -webkit-backdrop-filter: blur(14px) saturate(150%);
-  backdrop-filter: blur(14px) saturate(150%);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.14),
-    0 12px 30px rgba(3, 30, 62, 0.16);
   overflow: hidden;
-  isolation: isolate;
   transition:
     transform 420ms var(--ease),
     border-color 260ms ease,
@@ -205,25 +175,28 @@ h2 {
     background-color 260ms ease;
 }
 
-/* cursor-tracking spotlight */
-.cell::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  opacity: 0;
-  transition: opacity 320ms ease;
-  background: radial-gradient(
-    380px circle at var(--mx, 50%) var(--my, 0%),
-    rgba(255, 255, 255, 0.2),
-    rgba(255, 255, 255, 0) 62%
-  );
+/*
+ * two behaviors, two surfaces.
+ * filled + arrow  = leaves the page for the link.
+ * outlined + plus = opens in place, right here.
+ */
+.cell--link {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 12px 30px rgba(3, 30, 62, 0.14);
+}
+
+.cell--panel {
+  background-color: rgba(255, 255, 255, 0.028);
+  border-style: dashed;
+  border-color: rgba(255, 255, 255, 0.22);
 }
 
 .cell-trigger,
 .cell--link {
   padding: clamp(1.25rem, 2.2vw, 1.7rem);
-  min-height: 15.5rem;
+  min-height: 13.5rem;
 }
 
 .cell--link {
@@ -244,27 +217,43 @@ h2 {
   cursor: pointer;
 }
 
-.cell-tag {
-  align-self: flex-start;
-  padding: 0.3em 0.75em;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  font-size: 0.7rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--ink-faint);
-  background: rgba(255, 255, 255, 0.05);
-  transition: color 260ms ease, border-color 260ms ease;
-}
+
 
 .cell-title {
-  margin: 1.6rem 0 0;
+  margin: 0;
   font-family: var(--font-display);
   font-weight: 600;
   font-size: clamp(1.25rem, 2.1vw, 1.6rem);
   letter-spacing: -0.02em;
   line-height: 1.15;
+}
+
+.cell--featured {
+  grid-column: 1 / -1;
+  min-height: 0;
+  padding: clamp(1.5rem, 2.8vw, 2.4rem);
+}
+
+.featured-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: clamp(1rem, 2.5vw, 3rem);
+  align-items: start;
+}
+
+.cell-title--lg {
+  font-size: clamp(1.6rem, 3.2vw, 2.4rem);
+}
+
+.featured-channels {
+  margin: 0.35rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--ink-soft);
+}
+
+.channels-label {
+  color: rgba(255, 255, 255, 0.42);
 }
 
 .cell-desc {
@@ -317,37 +306,30 @@ h2 {
 
 /* hover / focus states */
 
+/* link cells lift off the page, the way they take you off it */
 .cell--link:hover,
-.cell--panel:hover,
-.cell:focus-within {
+.cell--link:focus-within {
   transform: translateY(-5px);
   border-color: var(--line-strong);
-  background-color: var(--cell-bg-hover);
+  background-color: rgba(255, 255, 255, 0.16);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.22),
     0 22px 48px rgba(3, 24, 52, 0.28);
 }
 
-.cell--link:hover::before,
-.cell--panel:hover::before,
-.cell:focus-within::before {
-  opacity: 1;
+/* panel cells stay put, the way they open in place */
+.cell--panel:hover,
+.cell--panel:focus-within {
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.06);
 }
 
-.cell--link:hover .cell-host,
-.cell--panel:hover .cell-host,
+.cell:hover .cell-host,
 .cell:focus-within .cell-host {
   color: var(--ink);
 }
 
-.cell--link:hover .cell-tag,
-.cell--panel:hover .cell-tag {
-  color: var(--ink-soft);
-  border-color: var(--line-strong);
-}
-
-.cell--link:hover .cell-icon,
-.cell--panel:hover .cell-icon,
+.cell:hover .cell-icon,
 .cell:focus-within .cell-icon {
   color: var(--blue-deep);
   background: var(--ink);
@@ -491,6 +473,14 @@ a:hover {
   .grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .featured-body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .featured-channels {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 620px) {
@@ -517,15 +507,8 @@ a:hover {
   }
 }
 
-@media (hover: none) {
-  .cell::before {
-    display: none;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .backdrop,
-  .eyebrow::before {
+  .backdrop {
     animation: none;
   }
 
