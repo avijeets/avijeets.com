@@ -208,6 +208,12 @@ h2 {
   text-decoration: none;
 }
 
+.cell-heading {
+  display: flex;
+  margin: 0;
+  font: inherit;
+}
+
 .cell-trigger {
   display: flex;
   flex-direction: column;
